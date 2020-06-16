@@ -1,0 +1,628 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8" />
+	<title>Svatba Veru a Péti | 20. července 2013</title>
+	<meta name="description" content="Svatební stránky Veroniky a Petra" />
+	<meta name="author" content="Petr Čermák" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
+	<!-- CSS Styles -->
+    <link rel="stylesheet" type="text/css" href="css/skeleton.css">	
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+    
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+	<!-- Google Web Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Italianno|Oswald:400,700,300|Petit+Formal+Script|Quando&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    
+    <!-- JavaScripts -->
+    <script type="text/javascript" src="js/prefixfree.min.js"></script>
+	<script type="text/javascript" src="js/modernizr-2.6.2.js"></script>
+    <script type="text/javascript" src="js/iOS-timer.js"></script>
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.countdown.js"></script>
+    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-touch-swipe-1.0.js"></script>
+    <script type="text/javascript" src="js/jquery.lazyload.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
+    <script type="text/javascript" src="js/supersized.shutter.min.js"></script>
+    <script type="text/javascript" src="js/supersized.pre.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/contact_form.js"></script>
+    <script type="text/javascript" src="js/jquery.sticky.js"></script>
+    <script type="text/javascript" src="js/kkcountdown.min.js"></script>
+
+
+	<script type="text/javascript">
+
+			var isMobile = false;
+	
+			if( navigator.userAgent.match(/Android/i) || 
+				navigator.userAgent.match(/webOS/i) ||
+				navigator.userAgent.match(/iPhone/i) || 
+				navigator.userAgent.match(/iPad/i)|| 
+				navigator.userAgent.match(/iPod/i) ||
+				navigator.userAgent.match(/Windows Phone OS/i) || 
+				navigator.userAgent.match(/BlackBerry/i)){
+								
+				isMobile = true;
+							
+			}
+			
+			/*iOS5 fixed-menu fix*/
+			var iOS5 = false;
+			
+			if (navigator.userAgent.match(/OS 5(_\d)+ like Mac OS X/i)){
+			
+				iOS5 = true;
+			
+			}
+		
+			
+	</script>
+    
+
+    
+	<script>
+		$(document).ready(function(){
+			$("nav").sticky({topSpacing:0});
+		});
+	</script>
+
+</head>
+
+<body>
+
+
+    
+<!-- Start Homepage -->
+	<div id="homepage" class="homepage section">
+            <div class="container">
+                <div class="sixteen columns headerRibbon">
+                    <div id="main-title-container">
+                      <div id="main-title-text">
+                        <h1>
+                          Veronika
+                        </h1>
+                        <h2>
+                          -&nbsp;&nbsp;a&nbsp;&nbsp;-
+                        </h2>
+                        <h1>
+                          Petr
+                        </h1>
+                        <div class="kkcount-down" data-time="1374312600">
+                        </div>
+                        <span>
+                          20. července 2013
+                        </span>
+                        <br />
+                        <span>
+                          Zámecká Kaple<br /> Dobřichovice
+                        </span>
+                      </div>
+                    </div>                    
+                </div>
+            </div>
+			<div class="slider-text">
+				<div class="four columns">
+					<a id="prevslide" class="load-item"></a>
+					<a id="nextslide" class="load-item"></a>
+				</div>
+			</div>
+	</div>      
+	
+<!--End homepage -->
+
+<!-- Start Navigation -->
+	<nav>
+	
+		<div class="container">
+			
+			<div class="sixteen columns">
+				
+				<!-- Start Nav Menu -->
+				<ul class="menu" id="nav">
+					<li><a href="#homepage">Úvod</a></li>
+					<li><a href="#about">O nás</a></li>
+   			    	<li><a href="#party">Svědci</a></li>
+                    <li><a href="#bucks-hens">Rozlučky</a></li>
+                    <li><a href="#location">Místo</a></li>
+                    <li><a href="#registry">Svatební dary</a></li>
+					<li><a href="#rsvp">Dejte vědět</a></li>
+                    <li><a href="/oznameni" target="_blank">oznámení</a></li>
+				</ul>
+				<!-- End Nav Menu -->
+				<!-- Start Dropmenu for mobile -->		
+				<select class="dropmenu" name="dropmenu" onChange="moveTo(this.value)">
+					<option value="" selected="selected">Menu</option>
+					<option value="#homepage">Úvod</option>
+					<option value="#about">O nás</option>
+					<option value="#party">Svědci</option>
+                    <option value="#bucks-hens">Rozlučky</option>
+                    <option value="#location">Místo</option> 
+					<option value="#registry">Svatební dary</option> 
+					<option value="#rsvp">Dejte vědět</option>
+				</select>
+				<!-- End Dropmenu for mobile -->
+				
+			</div>
+	
+		</div>
+	
+	</nav>
+<!-- End Navigation -->	
+           
+     
+<!--start About -->
+    <div id="about" class="page section">
+     
+ 		<h1>O <span>Nás</span></h1>
+
+        <div class="container aboutContainer">
+            
+            
+        	<div class="sixteen columns">
+                <h3 class="centerText">Před asi 15ti lety potkal jedenáctiletý Péťa malou Verču, kterou do oddílu Tulák přivedla Nikita - dík!<br />
+                Jelikož byly velice stydlivé děti, tak spolu začaly chodit až o pět let později. 
+                Po dvou letech randění se již o trochu větší Péťa vydal do světa na zkušenou, aby se mohl po třech letech vrátit a vstoupit podruhé do stejné řeky.
+                Před rokem spolu odjeli do Francie a 25. ledna letošního roku Péťa požádal Verču o ruku při večeři v pařížské restauraci.</h3>
+            </div> 
+            <div class="oba">
+            <div class="six columns offset-by-two specialleft">
+                <div class="groomOverlay"><h2>Ženich</h2></div> 
+            	<div class="groomImage"><img src="images/peta.jpg" alt="" class="scale-with-grid" /></div>
+                <h2>Petr Čermák</h2>                       
+            	<p>Prvorozený syn Honzy a Aleny, jediný pokračovatel rodu Čermáků.<br />
+              Fyzik korelovaných elektronů, magnetismu a profík s neutronovým zářením.<br />
+              Foursquare superuser, libertarián a fanda Microsoftích technologií.<br />
+              Vodák a čundrák, co se rád toulá.</p>
+            </div>
+            
+            <div class="six columns specialright">
+            	<div class="brideOverlay"><h2>Nevěsta</h2></div> 
+            	<div class="brideImage"><img src="images/veru.jpg" alt="" class="scale-with-grid" /></div> 
+                <h2>Veronika Králová</h2>
+            	<p>Narodila se jako první ze dvou dcer do "královské" rodiny rodičům Jarce a Karlovi.<br />
+              Stále ještě studuje na vysoké škole obor Informační systémy.<br />
+              Ráda plave, zkouší běhat a nejvíc ze všeho miluje, když s velkým sebezapřením vyleze na vrchol hory s nádherným výhledem.</p>
+            </div>
+            </div>
+            <div class="twelve columns offset-by-two">
+                <h3 class="sectionTitle">Kompatibilita</h3>
+                <div class="compatibility">
+                    <ul>
+                        <li>
+                            <p class="skill">Uklízení</p>
+                            <div class="bar barGuy percent10">
+                            <p class="percent">10%</p></div>
+                            <div class="bar percent25">
+                            <p class="percent">25%</p></div>
+                        </li>
+                        <li>
+                            <p class="skill">Vaření</p>
+                            <div class="bar barGuy percent40">
+                            <p class="percent">40%</p></div>
+                            <div class="bar percent95">
+                            <p class="percent">95%</p></div>
+                        </li>
+                        <li>
+                            <p class="skill">Počítačové hry</p>
+                            <div class="bar barGuy percent90">
+                            <p class="percent">90%</p></div>
+                            <div class="bar percent55">
+                            <p class="percent">55%</p></div>
+                        </li>
+                        <li>
+                            <p class="skill">Nakupování</p>
+                            <div class="bar barGuy percent25">
+                            <p class="percent">25%</p></div>
+                            <div class="bar percent80">
+                            <p class="percent">80%</p></div>
+                        </li>
+                        <li>
+                            <p class="skill">Sport</p>
+                            <div class="bar barGuy percent80">
+                            <p class="percent">80%</p></div>
+                            <div class="bar percent70">
+                            <p class="percent">70%</p></div>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <h3 class="sectionTitle">Svatební oznámení</h3>
+                <p><a href="/oznameni" target="_blank">Pro zobrazení elektornické verze našeho svateního oznámení klikni</a>.</p>
+            </div>
+     	</div>
+     </div>
+<!--end about--> 
+    
+<!--start parallax 1-->
+     <div id="parallax-1" class="parallax fixed" style="background-image: url(images/parallax-1-pre.jpg);">
+         <div class="quoteWrap">
+            <div class="quote">
+                <div class="container">
+                    <div class="sixteen columns">
+                        <h3><span>...budeme šťastni, protože chceme být šťastni...</span></h3>
+                    </div>
+                </div>  
+            </div>
+         </div>
+     </div>
+<!--end parallax 1-->
+    
+<!--start wedding party -->
+     <div id="party" class="page section">
+     
+ 		<h1>Svědci &amp; <span>Reverend</span> &amp; Kapela</h1>
+
+        <div class="container weddingPartyContainer">
+        
+            
+            <div class="five columns textRight">
+            	<h2>Martin "Bubu" Valeš</h2>
+            	<p>"Bubua znám od začátku gymnázia, kde jsme se potkali, když náš seznamovací vlak píchnul kolo. 
+                To jsem taky zjistil, že jsem medvěd Béďa a skvěle se doplňujeme. Prožili jsme spolu nespočet 
+                patálií a notně jsme se u toho nasmáli. Odjakživa byl ten vyšší a tak jsem k němu vzhlížel.
+                Ale to už je jiný příběh. Nedám na něj dopustit!"<br />
+                - ženich -<br />
+                </p>
+            </div>
+            <div class="three columns">
+                <div class="partyImageGuy" style="background-image: url(images/groomsmen1.jpg);"><h4>Svědek</h4></div>
+            </div>
+            
+            <div class="three columns">
+                <div class="partyImage" style="background-image: url(images/bridesmaid1.jpg);"><h4>Svědkyně</h4></div>
+            </div>
+            <div class="five columns">
+            	<h2>Katka Vinopalová</h2>
+            	<p>"Katku znám asi od mých osmnácti let. Po nějakou dobou byla moje nejoblíbenější "tetička", a když
+                 Péťa vyrazil "do světa", tak se mě ujala a jako starší a zkušenější se mě snažila trochu zkazit 
+                 (ona sama si myslí, že za to vůbec nemůže). Od té doby jsme spolu protancovaly několikery střevíce 
+                 na všelijakých vesnických tancovačkách a z mnohých akcí jsme si tancovačku udělaly 
+                 (třeba v Letech na návsi :)."<br />
+                 - nevěsta - </p>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+            <div class="five columns textRight">
+            	<h2>Daniel Knotek</h2>
+            	<p>Student evangelicko-teologické fakulty v Praze; frontman ve skupině Caktus Showband. 
+                Skloubení víry v boha a víry v rock’n’roll s něj dělá výjimečného faráře a ještě výjimečnějšího zpěváka. 
+                Ženicha i nevěstu zná dlouhou dobu a tak bude jeho požehnání tím správným vykročením do jejich společného života.
+                </p>
+            </div>
+            <div class="three columns">
+                <div class="partyImageGuy" style="background-image: url(images/dan.jpg);"><h4>Oddávající</h4></div>
+            </div>
+            
+            <div class="three columns">
+                <div class="partyImage" style="background-image: url(images/caktus.png);"><h4>Kapela</h4></div>
+            </div>
+            <div class="five columns">
+            	<h2>Caktus Showband</h2>
+            	<p>Pražská kapela, jejíž hudba čerpá z kořenů blues, swingu a rock'n'rollu, ale obohacuje se i o řadu dalších žánrů. Hraje vlastní tvorbu i po svém upravené klasické hity.
+              Od roku 2006 vystupuje CAKTUS ve velké sestavě, s dechovou sekcí a sličnými slečnami vokalistkami.</p>
+            </div>
+     	</div>
+        <div class="container othersContainer">
+        	<h3 class="sectionTitle">Dále pomáhají</h3>   
+                <ul>
+                    <li>Českobratrská církev evangelická (obřad)</li>
+                    <li><a href="http://www.naveselce.cz/" target="_blank">Hostinec Na Veselce</a> (svatební hostina)</li>
+                    <li><a href="http://www.kredum.cz/" target="_blank">Hynek Kalista</a> (snubní prstýnky)</li>
+                    <li>Ivo Mareš (farář)</li>
+                    <li><a href="http://www.bugemos.cz/" target="_blank">Jojin&HedgeHog</a> (<a href="/oznameni" target="_blank">oznámení</a>)</li>
+                    <li>kamarádi</li>
+                    <li><a href="http://www.snubni-zasnubni-prsteny.cz/" target="_blank">Karel Hendrych</a> (zásnubní prstýnek)</li>
+                    <li>Káťa a Jirka (zpěv na obřadu)</li>
+                    <li><a href="http://www.mydva.net/" target="_blank">My dva</a> (fotografové)</li>    
+                    <li>příbuzní</li>
+                    <li><a href="http://www.revnice.farnost.cz/" target="_blank">Římskokatolická církev</a> (kaple)</li>
+                </ul>
+        </div>
+     </div>
+<!--end wedding party-->
+
+<!--start parallax 2-->
+     <div id="parallax-2" class="parallax fixed" style="background-image: url(images/parallax-2-pre.jpg);">
+         <div class="quoteWrap">
+            <div class="quote">
+                <div class="container">
+                    <div class="sixteen columns">
+                        <h3><span>Manžel je člověk, který ženě pomáhá v nesnázích,<br />do kterých by se nebyla dostala, kdyby si ho nebyla vzala.</span></h3>
+                    </div>
+                </div>
+            </div>
+         </div>
+     </div>
+<!--end parallax 2-->  
+    
+<!--start Location -->
+     <div id="bucks-hens" class="page section">
+     
+ 		<h1>Rozlučky se <span>svobodou</span></h1>
+        
+        <div class="container locationContainer">
+        
+        	
+            <div class="six columns offset-by-two">
+                <div class="groomOverlay"><h2>Klučičí</h2></div> 
+            	<div class="groomImage"><img src="images/bucks1.jpg" alt="" class="scale-with-grid" /></div> 
+                <h2>Více bude upřesněno,</h2>                       
+            	<h4>přihlaš se ať víš podrobnosti!</h4>
+                <p>Místo:<br /><br />někde v Praze</p>
+                <p>od odpoledne do rána, sobota 13. července 2013</p>
+                <p><a href="rozlucka.html?iframe=true&width=460&height=345" rel="prettyPhoto"><strong>PŘIHLÁSIT SE</strong></a></p>
+            </div>
+           
+            <div class="six columns">
+                <div class="brideOverlay"><h2>Holčičí</h2></div> 
+            	<div class="brideImage"><img src="images/hens.jpg" alt="" class="scale-with-grid" /></div> 
+                <h2>Když naposled, tak pořádně!</h2>                       
+            	<h4>Verčina rozlučka se svobodou se bude konat v:</h4>
+                <p>Restaurace Chalupa, Lety<br />a<br />Coctail & music bar Fifty Five, Dobřichovice</p>
+                <p>5. července 2013, začátek bude upřesněn</p>
+                <p><strong><a href="http://mapy.cz/s/7bdr" target="_blank">UKÁZAT MAPU</a></strong></p>
+            </div>
+     	</div>
+     </div>
+<!--end location--> 
+
+<!--start parallax 3-->
+     <div id="parallax-3" class="parallax fixed" style="background-image: url(images/parallax-3-pre.jpg);">
+         <div class="quoteWrap">
+            <div class="quote">
+                <div class="container">
+                    <div class="sixteen columns">
+                        <h3><span>Milovat neznamená jen mít rád, milovat je věřit a pravdu znát,<br />
+                        milovat je odpustit a znovu podat ruce, milovat je rozdělit duši i srdce.</span></h3>
+                    </div>
+                </div>  
+            </div>
+         </div>
+     </div>
+<!--end parallax 3-->
+
+<!--start Location -->
+     <div id="location" class="page section">
+     
+ 		<h1>Obřad &amp; <span>Afterparty</span></h1>
+        
+        <div class="container locationContainer">
+        
+            <div class="six columns offset-by-two">
+                <div class="groomOverlay"><h2>Obřad</h2></div> 
+            	<div class="groomImage"><img src="images/wedding.jpg" alt="" class="scale-with-grid" /></div> 
+                <h2>Jak se dostat na svatbu</h2>                       
+            	<h4>Obřad se bude konat:</h4>
+                <p>zámecká kaple sv. Judy Tadeáše<br>západní křídlo dobřichovského zámku</p>
+                <p>začátek v 11:30, 20. července 2013</p>
+                <p><a href="http://mapy.cz/s/7bbr" target="_blank"><strong>zobrazit na mapě</strong></a>
+                   | <a href="https://foursquare.com/v/515808f3e4b09bde4f019c9d" target="_blank"><strong>foursquare venue</strong></a></p>
+                <p><a href="/program">Detailní popis svatebního dne ZDE</a></p>
+            </div>
+            
+            <div class="six columns">
+                <div class="brideOverlay"><h2>Čuník</h2></div> 
+            	<div class="brideImage"><img src="images/reception.jpg" alt="" class="scale-with-grid" /></div> 
+                <h2>Jak se dostat na afterparty</h2>                       
+            	<h4>Party se všemi kamarády bude:</h4>
+                <p>Čermákovic chata<br>Stěžov 9</p>
+                <p>20. července 2013 od 16:00</p>
+                <p><a href="http://mapy.cz/s/6Io3" target="_blank"><strong>zobrazit na mapě</strong></a>
+                   | <a href="https://foursquare.com/v/4de1019dd22d2a79557bdef2" target="_blank"><strong>foursquare venue</strong></a></p>
+                <p><a href="/program">PODROBNÉ INFORMACE ZDE</a></p>
+            </div>
+            
+     	</div>
+     </div>
+<!--end location--> 
+
+<!--start parallax 4-->
+     <div id="parallax-4" class="parallax fixed" style="background-image: url(images/parallax-4-pre.jpg);">
+         <div class="quoteWrap">
+            <div class="quote">
+                <div class="container">
+                    <div class="sixteen columns">
+                        <h3><span>Manželství dovolí člověku trápit jednu vyvolenou osobu po celý život.</span></h3>
+                    </div>
+                </div>  
+            </div>
+         </div>
+     </div>
+<!--end parallax 4-->
+  
+<!--start registry -->
+     <div id="registry" class="page section">
+     
+ 		<h1>Svatební <span>Dary</span></h1>
+        
+        <div class="container registryContainer">
+        
+        	<div class="sixteen columns">
+                <h3 class="centerText">
+                Pokud nám chcete udělat radost nějakým darem, zarezervujte si nějaký z <a href="/svatebni-list">našeho seznamu</a>.<br />
+                Jelikož už spolu nějaký čas žijeme, spoustu věcí už máme.<br />
+                Nekupujte nám prosím nic co na seznamu není.</h3>
+            </div>
+            <div class="sixteen columns">
+                <div class="registryImage" style="background-image: url(images/registry.png);"><a class="registryLink" href="/svatebni-list">Svatební list</a></div>
+            </div>
+            
+            <div class="sixteen columns swirl">
+                <img src="images/swirl-middle.png" class="scale-with-grid" alt="swirl" />
+            </div>
+
+     	</div>
+     </div>
+<!--end registry-->  
+ 
+<!--start parallax 5-->
+     <div id="parallax-5" class="parallax fixed" style="background-image: url(images/parallax-5-pre.jpg);">
+         <div class="quoteWrap">
+            <div class="quote">
+                <div class="container">
+                    <div class="sixteen columns">
+                        <h3><span>Jako je koráb připoután k molu, jako je s ohněm spojen dým,<br />
+                        budu já s tebou, budeme spolu, ty jsi má láska, já to vím.</span></h3>
+                    </div>
+                </div>  
+            </div>
+         </div>
+     </div>
+<!--end parallax 5-->
+   
+<!--start rsvp-->
+     <div id="rsvp" class="page section">
+     
+        <h1><span>Dejte vědět</span></h1>
+
+        <div class="container contactContainer">
+        
+        	<div class="sixteen columns">
+                <h3 class="centerText">Abychom měli představu, kolik občerstvení je třeba přichystat, dejte nám prosím vědět jestli dorazíte na afterpárty do Stěžova.<br />
+                Pro účast na párty není vůbec nutné účastnit se obřadu.</h3>
+            </div> 
+               
+            
+            <div id="contact_form">
+                <div class="twelve columns offset-by-two formWrap">
+                    <form action="#" method="post" class="contactForm">
+                        <div class="formSecWrap">
+                            <label for="form_name">Jméno</label>
+                                <input type="text" id="form_name" name="form_name" value="" />
+           
+                            <label for="form_email">Email</label>
+                                <input type="text" name="form_email" id="form_email" value="" />
+                      
+                            <label for="form_phone">Počet dospělých</label>
+                                <input type="text" name="form_adult" id="form_adult" value="" />
+                                
+                            <label for="form_number">Počet dětí</label>
+                                <input type="text" name="form_children" id="form_children" value="" />
+                      
+                            
+                        </div>
+                        <div class="formSecWrap formSecWrap2">
+                            <label for="form_ucast">Kam dorazím</label>
+                            <select id="form_ucast" name="form_ucast">
+                                <option value="0">vyber čeho se zúčastníš:</option>
+                                <option>jen do Stěžova</option>
+                                <option>zvládnu obojí, obřad i party</option>
+                                <option>jen kouknout na obřad</option>
+                                <option>bohužel nedorazím vůbec</option>
+                            </select> 
+                            <label for="form_message">Zpráva</label>
+                                <textarea  style="height:164px" class="textarea" name="form_message" id="form_message"></textarea>
+                        
+                        </div>
+                        	<input class="button" id="submit-form" type="submit" name="submit" value="Odeslat" />
+                        <div id="success"></div>
+                    </form>
+                </div>
+            </div>
+            <div class="sixteen columns centerText">             
+                <h3 class="sectionTitle">Máte nějaké dotazy?</h3>
+                <div class="contactDetails" >
+                    <p>Petr: <a href="mailto:pcermak@live.com">pcermak@live.com</a><br />
+                    skype: me2d09</p>
+                    <p>Veronika: <a href="mailto:kralovaveronika@live.com">kralovaveronika@live.com</a><br />
+                    mobil: +420 732 934 703</p>
+
+                </div>
+            </div>
+   	    </div>
+    </div>
+<!--end rsvp--> 
+
+<!--start parallax 6-->
+     <div id="parallax-6" class="parallax fixed" style="background-image: url(images/parallax-6-pre.jpg);">
+        <div class="quoteWrap">
+            <div class="quote">
+                <div class="container">
+                    <div class="sixteen columns">
+                        <h3><span>Jsou okamžiky v životě,<br />kdy stojí za to podstupovat rizika<br />
+                        a dělat šílené věci.</span></h3>
+                    </div>
+                </div>  
+            </div>
+         </div>
+     </div>
+<!--end parallax 6-->
+
+<!--start footer-->
+    <div id="footer">
+    
+        <div class="container">
+
+            <div class="sixteen columns">
+                <h3 class="centerText">Těšíme se na shledanou!</h3>
+            </div>
+            
+            <div class="sixteen columns">	
+                <p class="copyright">&copy; Péťa & Veru 2013.</p>
+            </div>
+            
+        </div>
+    </div>
+<!--end footer-->
+
+
+<script type="text/javascript">
+	function moveTo(contentArea){
+		var goPosition = $(contentArea).offset().top;
+		$('html,body').animate({ scrollTop: goPosition}, 'slow');
+	}
+</script>
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function(){
+		
+		$("a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',slideshow:6000,social_tools:false});
+		//$("#location a[rel^='prettyPhoto']:first").prettyPhoto({
+		//	custom_markup: '<div id="map_canvas" style="width:500px; height:500px"></div>',
+		//	changepicturecallback: function(){ initialize(); }
+		//});
+    
+    
+    // Scroll effect on Home Page box
+  	if(!isMobile){
+  		var div = $('#main-title-text');
+  				$(window).on('scroll', function() {
+  				   var st = $(this).scrollTop();
+  				   div.css({ 'opacity' : (1 - st/500) });
+  				   div.css({ 'top' : (st*1.3) });
+  				});
+  	}
+	});
+  
+  
+	//Code for countdown timer
+	$(".kkcount-down").kkcountdown({
+		dayText		: '',
+		daysText 	: ' dnů ',
+		hoursText	: ':',
+		minutesText	: ':',
+		secondsText	: '',
+		displayZeroDays : false,
+		addClass	: ''
+	});
+</script>
+
+
+  
+
+</body>
+</html>

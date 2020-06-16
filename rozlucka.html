@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>Přihláška na rozlučku</title>
+    <link rel="stylesheet" type="text/css" href="css/layoutform.css" />    
+
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/contact_form2.js"></script>
+</head>
+<body>
+    <form action="#" method="post" class="contactForm">
+    <div id="contact_form">
+                <h2>Přihláška na rozlučkovou párty s ženichem</h2>
+                    <div class="left">
+                        <label for="form_name">Jméno</label>
+                       <input type="text" style="width:200px" id="form_name" name="form_name" value="" />
+                    </div>
+                    <div class="right">
+                        <label for="form_number">Účast</label>
+                        <select style="width:160px" id="form_ucast" name="form_ucast">
+                            <option>nemůžu, sorry</option>
+                            <option>snad mi to vyjde</option>
+                            <option>na 100%</option>
+                        </select>                      
+                    </div>
+                    <div class="left">
+                        <label for="form_email">E-mail</label>
+                        <input type="text" style="width:200px" name="form_email" id="form_email" value="" />
+                    </div>
+                    <div class="right">
+                        <label for="form_number">Velikost nohy</label>
+                        <select style="width:160px" id="form_noha" name="form_noha">
+                            <option value="0" >jak jsi na tom?</option>
+                            <option>5-6</option>
+                            <option>7-8</option>
+                            <option>9-10</option>
+                            <option>11-12</option>
+                            <option>13-14</option>
+                        </select>                 
+                    </div>
+                    <div class="clear"></div>
+                    <label for="form_message">Zpráva</label>
+                    <textarea name="form_message" id="form_message"> </textarea>
+                        
+                    <input class="button" id="submit-form" type="submit" name="submit" value="Odeslat" />
+                    
+                    <div id="success"></div>
+               </div>
+    </form>
+</body>
+</html>

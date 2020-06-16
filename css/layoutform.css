@@ -1,0 +1,214 @@
+
+/* #Reset & Basics (Inspired by E. Meyers)
+================================================== */
+	
+html, body {
+    height: 100%;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+body { margin: 10px}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+/*--------------------------------------------------------
+Commons
+--------------------------------------------------------*/
+
+
+::-moz-selection {background: #B57EDC ;color: white; }
+::selection {background: #B57EDC ;color: white; }
+
+body {
+	background: #fff;
+	font: 15px sans-serif;
+	font-weight: 300;
+	color: #222;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	text-align: left;
+}
+
+
+	
+/*form elements ----------------------------*/	
+textarea {
+	height:40px;
+	padding:20px;
+	margin-bottom:20px; 
+	overflow:auto;
+}
+	
+.formSecWrap {
+	float: left;
+	margin-right: 20px;
+}
+.formSecWrap2 {
+	margin-right: 0px;
+}
+input[type="text"], input[type="password"], input[type="email"], textarea, select {
+    background: #B57EDC;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    display: block;
+    margin: 0 0 10px 0;
+    outline: medium none;
+    padding: 6px 6px;
+    width: 400px;
+	font-family:'Oswald', sans-serif;
+	font-size: 16px;
+}
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, textarea:focus {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    color: #444444;
+}
+
+.formWrap {
+	margin-top: 60px;
+}
+.formWrap label{
+	margin: 0 0 2px 0;
+	display: block;
+}
+.formWrap input[type="submit"]{
+	margin: 10px 0 20px 0;
+}
+
+a.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+	background: #85ec76; 
+	border-radius: 10px;
+	padding: 6px 0px;
+	color: #fff;
+	display: inline-block;
+	font-size: 14px;
+	text-decoration: none;
+	cursor: pointer;
+	width: 412px;
+	border: none;
+	margin: 0 0 10px 0;
+	line-height: 21px;
+	text-align: center;
+}
+a.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+	color: #222;
+	background: #ddd;
+}
+	
+	
+	/* Alert Boxes
+================================================================ */
+.alert {
+	padding: 8px 35px 8px 14px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	clear: left;
+	color: #c09853;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	background-color: #fcf8e3;
+	border: 1px solid #fbeed5;
+ 	border-radius: 10px;
+}
+.alert h4 {
+	margin: 0;
+}
+.alert p {
+	margin: 0;
+}
+.alert .close {
+	position: relative;
+	top: -2px;
+	right: -35px;
+	line-height: 20px;
+}
+.alert-success {
+	color: #468847;
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+}
+.alert-danger,
+.alert-error {
+	color: #b94a48;
+	background-color: #f2dede;
+	border-color: #eed3d7;
+}
+.alert-info {
+	color: #3a87ad;
+	background-color: #d9edf7;
+	border-color: #bce8f1;
+}
+button.close {
+    background: none;
+    border: 0 none;
+    cursor: pointer;
+    padding: 0;
+}
+.close {
+    color: #000000;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    opacity: 0.2;
+    text-shadow: 0 1px 0 #222;
+}
+
+	
+		
+/*--------------------------------------------------------
+	v.--MISC
+--------------------------------------------------------*/		
+		
+	.clear{float:none;}			
+	
+	.left{float:left;}
+	.right{float:right;}
+
+h2 { font-size: 14pt; margin-bottom: 14px; }
+
+#contact_form { margin: 0px auto; width: 412px}
